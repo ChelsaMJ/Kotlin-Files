@@ -39,11 +39,11 @@ fun main(){
     """
     println(name3)
 
-    var name: String = """
+    var name4: String = """
            Name
     Name           Name
            Name """
-    println(name)
+    println(name4)
   
 
 
