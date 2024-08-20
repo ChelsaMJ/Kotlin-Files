@@ -39,4 +39,12 @@ fun main(){
     """
     println(name3)
 
+    var name: String = """
+           Name
+    Name           Name
+           Name """
+    println(name)
+  
+
+
 }
