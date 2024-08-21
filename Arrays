@@ -1,12 +1,21 @@
-fun main() {
-//     Array of Ingtegers
-    val nums = arrayOf(1,2,3,4)
-    println(nums.contentToString())
-//     Array of Strings
-    val words: Array<String> = arrayOf("Human", "Being")
-    println(words.contentToString())
-//     Array of Squares using lambda
-    val squares = Array(5) {i -> i * i}
-    println(squares.contentToString())
-//     Accessing elements
+fun main(){ 
+    val num = arrayOf(1,2,3,4,5) //without data type
+    val words:Array<String> = arrayOf("abc","def") //with data type
+    
+    //multiple of 2:
+    val squares = Array(5) { i -> i * i } 
+    // val name = initializing as Array {contains condition}
+    // -> is called lambda function
+    
+    println(num.joinToString())
+    println(words.joinToString())
+    println(squares.joinToString())
+    
+    
+    //accessing elements with index number
+    val first = num[0]
+    val sec = words[1]
+    println(first)
+    println(sec)
+
 }
