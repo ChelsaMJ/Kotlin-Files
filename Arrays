@@ -7,15 +7,28 @@ fun main(){
     // val name = initializing as Array {contains condition}
     // -> is called lambda function
     
-    println(num.joinToString())
-    println(words.joinToString())
-    println(squares.joinToString())
+    println(num.contentToString())
+    println(words.contentToString())
+    println(squares.contentToString())
     
-    
+     println("\n")
     //accessing elements with index number
     val first = num[0]
     val sec = words[1]
     println(first)
     println(sec)
+    
+    println("First Number in array is $first")
+    println("Second word in array is $sec")
+    
+     println("\n")
+    //modifying element
+    num[0]=10
+    words[1]="Kotlin"
+    println("Modified first number: ${num[0]}")
+    println("Modified sec word: ${words[1]}")
+    
+    println("\n")
+
 
 }
