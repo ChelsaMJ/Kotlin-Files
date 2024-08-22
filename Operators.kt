@@ -62,7 +62,13 @@ fun main(){
     println("unary plus :$f")
     println("unary minus: $g")
 //     println(h)
-    
+
+    val isTrue = true
+    println("Unary plus of $a = ${+a}")
+    println("Unary minus of $b = ${-b}")
+    println("Increment of $a = ${++a}")
+    println("Decrement of $b = ${--b}")
+    println("${!isTrue}")
    
     println('\n')
     //logical
