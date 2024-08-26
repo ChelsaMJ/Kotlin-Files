@@ -1,8 +1,8 @@
 fun main() {
    // construct calculator using if-else for all arithmatic operator
     
-    var a=10
-    var b=20
+    var a=20
+    var b=10
 //     op=plus,minus,multiply,divide
     val op = "multiply"
     
