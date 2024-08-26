@@ -4,7 +4,7 @@ fun main() {
     var a=20
     var b=10
 //     op=plus,minus,multiply,divide
-    val op = "multiply"
+    val op = "divide"
     
     if(op=="plus")
     {
@@ -17,9 +17,18 @@ fun main() {
     else if(op=="multiply")
     {
         println("Multiplication: ${a*b}")    }
-    else
+    else if(op=="divide")
     {
-        println("Divition: ${a/b}")
+        if(b!=0){
+            println("Division: ${a/b}")
+        }
+        else
+        {
+            println("Error: divistion by zero")
+        }
+    }
+    else{
+        println("Error: unsupported operator")
     }
     
 }
